@@ -1,0 +1,29 @@
+
+.container.flexed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  width: auto;
+}
+
+.nav.has-shadow {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  min-height: 80px;
+}
+
+.hero {
+  margin-top: 80px;
+}
+
+.container.list.content {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  > * {
+    color: $white;
+  }
+}
