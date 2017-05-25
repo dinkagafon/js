@@ -147,13 +147,47 @@ var __makeRelativeRequire = function(require, mappings, pref) {
     return require(name);
   }
 };
-require.register("application.js", function(exports, require, module) {
 
-});
+require.register("___globals___", function(exports, require, module) {
 
-;require.register("___globals___", function(exports, require, module) {
-  
 });})();require('___globals___');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Писать свой JS нужно здесь
+
+  console.log('Hello world!');
+})
+
+
+
+
 
 
 //# sourceMappingURL=app.js.map
